@@ -59,7 +59,7 @@ let fotoActual = 0;
 // NÚMERO DE FOTOS
 // ============================================
 
-numeroFotos.textContent = fotos.length;
+numeroFotos.textContent = "32";
 
 
 // ============================================
