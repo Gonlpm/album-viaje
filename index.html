@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Mi viaje de 2016 📸</title>
+
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="emoji">✈️</div>
+        <h1>Mi viaje</h1>
+        <p>Un viaje para recordar</p>
+
+        <div class="informacion">
+            <span>📅 2016</span>
+            <span>📷 <span id="numeroFotos">Cargando...</span> fotos</span>
+        </div>
+    </header>
+
+
+    <main>
+        <div id="galeria" class="galeria"></div>
+    </main>
+
+
+    <!-- Visor a pantalla completa -->
+    <div id="visor" class="visor">
+
+        <button id="cerrar" class="cerrar">×</button>
+
+        <button id="anterior" class="flecha izquierda">‹</button>
+
+        <img id="fotoGrande" src="" alt="Foto del viaje">
+
+        <button id="siguiente" class="flecha derecha">›</button>
+
+        <div id="contador" class="contador"></div>
+
+    </div>
+
+
+    <footer>
+        ❤️ Recuerdos de un viaje inolvidable
+    </footer>
+
+
+    <!-- JavaScript -->
+    <script src="./script.js?v=2"></script>
+
+</body>
+</html>
